@@ -40,4 +40,32 @@ body {
 .header {
   padding-top: 26px;
   padding-bottom: 18px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  width: 177px;
+}
+.nav__list {
+  display: flex;
+  gap: 40px;
+}
+.nav__item {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #4D5053;
+}
+.nav__item:hover {
+  color: #CDA274;
+}
+
+.hero {
+  background-image: url(/img/background-one.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
