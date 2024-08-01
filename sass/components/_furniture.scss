@@ -1,0 +1,52 @@
+.furniture {
+    padding-top: 75px;
+    padding-bottom: 70px;
+
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+
+    &__title {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 156%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: $btn-color;
+        margin-bottom: 17px;
+    }
+
+    &__text {
+        margin-bottom: 48px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-align: center;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: $btn-color;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    &__icon{
+        width: 24px;
+        height: 17px;
+        fill: $hover-color;
+    }
+}

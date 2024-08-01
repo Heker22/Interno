@@ -1,0 +1,105 @@
+.design {
+
+
+    &__wrap {
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 37px;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 130%;
+        letter-spacing: 0em;
+        margin-bottom: 42px;
+        font-family: "DM Serif Display", serif;
+    }
+
+
+
+    &__text {
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+    }
+
+
+    &__call-wrap {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+
+    &__call-wrapper {
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $hover-btn-color;
+        width: 93px;
+        height: 93px;
+    }
+
+    &__wrap-icon {
+        width: 34px;
+        width: 34px;
+    }
+
+    &__number {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        margin-bottom: 5px;
+        color: $btn-color;
+    }
+
+    &__word {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: $btn-color;
+    }
+
+    &__btn {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: $background-color;
+        padding: 18px 34px;
+        background-color: $btn-color;
+        border: 1px solid $btn-color;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        gap: 21px;
+
+        
+        &:hover,
+        &:focus {
+            border: 1px solid $hover-color;
+            background-color: $background-color; 
+            color: $hover-color;
+        }
+    }
+
+    &__icon {
+        fill: $hover-color;
+        width: 35px;
+        height: 35px;
+    }
+
+    &__ {}
+
+    &__ {}
+}

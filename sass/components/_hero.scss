@@ -1,5 +1,56 @@
-.hero{
+.hero {
     background-image: url(/img/background-one.png);
-    background-size: cover;
+    background-size: 1440px;
     background-repeat: no-repeat;
+    padding-top: 188px;
+    padding-bottom: 266px;
+    background-position: center;
+
+    &__title {
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 120%;
+        letter-spacing: 0em;
+        margin-bottom: 19px;
+        color: $btn-color;
+        font-family: "DM Serif Display", serif;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        margin-bottom: 35px;
+    }
+
+    &__btn {
+        padding: 18px 34px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        border: 1px solid $btn-color;
+        background-color: $btn-color;
+        border-radius: 18px;
+        color: $background-color;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 21px;
+
+
+        &:hover,
+        &:focus {
+            border: 1px solid $hover-color;
+            background-color: $background-color; 
+            color: $hover-color;
+        }
+    }
+
+    &__icon {
+        fill: $hover-color;
+        width: 35px;
+        height: 35px;
+    }
 }
