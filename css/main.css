@@ -241,4 +241,28 @@ body {
   fill: #CDA274;
   width: 35px;
   height: 35px;
+}
+.abt {
+  padding-top: 103px;
+  padding-bottom: 120px;
+  border-radius: 70px;
+  background-color: #F4F0EC;
+  width: 1200px;
+  height: 675px;
+  margin-left: 120px;
+}
+.abt__title {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #292F36;
+  margin-bottom: 46px;
+}
+.abt__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
