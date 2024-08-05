@@ -322,9 +322,12 @@ body {
   align-items: center;
   margin: 0 55px 0 55px;
 }
+.clients__item {
+  width: 218px;
+}
 .clients__icon:nth-child(1) {
-  width: 117px;
-  height: 48px;
+  width: 103px;
+  height: 103px;
 }
 .clients__icon:nth-child(2) {
   width: 145px;
@@ -334,11 +337,11 @@ body {
   width: 164px;
   height: 63px;
 }
-.clients__item:nth-child(4) {
-  max-width: 100%;
-  max-height: 100%;
+.clients__icon:nth-child(4) {
+  width: 117px;
+  height: 48px;
 }
-.clients__item:nth-child(5) {
+.clients__icon:nth-child(5) {
   width: 132px;
   height: 43px;
 }/*# sourceMappingURL=main.css.map */

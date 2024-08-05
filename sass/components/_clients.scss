@@ -12,9 +12,15 @@
     }
 
 
+
+    &__item {
+        width: 218px;
+    }
+
+
     &__icon:nth-child(1) {
-        width: 117px;
-        height: 48px;
+        width: 103px;
+        height: 103px;
     }
 
     &__icon:nth-child(2) {
@@ -29,19 +35,19 @@
     }
 
 
-    &__item:nth-child(4) {
-        max-width: 100%;
-        max-height: 100%;
+    &__icon:nth-child(4) {
+        width: 117px;
+        height: 48px;
     }
 
 
-    &__item:nth-child(5) {
+    &__icon:nth-child(5) {
         width: 132px;
         height: 43px;
     }
 
 
-    &__ {}
+
 
 
     &__ {}
