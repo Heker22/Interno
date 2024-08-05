@@ -317,31 +317,16 @@ body {
 }
 .clients__list {
   display: flex;
-  /*flex-direction: row-reverse;**/
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   margin: 0 55px 0 55px;
 }
-.clients__item {
-  width: 218px;
+.clients__icon {
+  width: 160px;
+  height: 100px;
+  fill: #292F36;
 }
-.clients__icon:nth-child(1) {
-  width: 103px;
-  height: 103px;
-}
-.clients__icon:nth-child(2) {
-  width: 145px;
-  height: 45px;
-}
-.clients__icon:nth-child(3) {
-  width: 164px;
-  height: 63px;
-}
-.clients__icon:nth-child(4) {
-  width: 117px;
-  height: 48px;
-}
-.clients__icon:nth-child(5) {
-  width: 132px;
-  height: 43px;
+.clients__icon:hover, .clients__icon:focus {
+  fill: #CDA274;
 }/*# sourceMappingURL=main.css.map */
