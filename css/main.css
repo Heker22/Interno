@@ -161,6 +161,9 @@ body {
   fill: #CDA274;
 }
 
+.design {
+  padding-top: 83px;
+}
 .design__wrap {
   display: flex;
   padding-top: 40px;
@@ -174,6 +177,7 @@ body {
   letter-spacing: 0em;
   margin-bottom: 42px;
   font-family: "DM Serif Display", serif;
+  color: #292F36;
 }
 .design__text {
   margin-bottom: 40px;
@@ -242,13 +246,14 @@ body {
   width: 35px;
   height: 35px;
 }
+.abt {
+  padding-top: 157px;
+}
 .abt__box-wrapper {
   padding-top: 103px;
   padding-bottom: 120px;
   border-radius: 70px;
   background-color: #F4F0EC;
-  width: 1200px;
-  height: 675px;
 }
 .abt__title {
   font-family: "DM Serif Display", serif;
@@ -264,4 +269,32 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+}
+.abt__box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.abt__item {
+  width: 356px;
+  border-radius: 30px;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  padding-left: 35px;
+}
+.abt__subtitle {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  font-family: "DM Serif Display", serif;
+  color: #292F36;
+  margin-bottom: 5px;
+}
+.abt__img {
+  width: 77px;
+  height: 77px;
+  margin-bottom: 25px;
 }/*# sourceMappingURL=main.css.map */

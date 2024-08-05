@@ -1,5 +1,5 @@
 .design {
-
+padding-top: 83px;
 
     &__wrap {
         display: flex;
@@ -15,6 +15,7 @@
         letter-spacing: 0em;
         margin-bottom: 42px;
         font-family: "DM Serif Display", serif;
+        color: $btn-color;
     }
 
 
