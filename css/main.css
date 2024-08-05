@@ -329,4 +329,9 @@ body {
 }
 .clients__icon:hover, .clients__icon:focus {
   fill: #CDA274;
+}
+
+.projects {
+  padding-top: 113px;
+  padding-bottom: 60px;
 }/*# sourceMappingURL=main.css.map */
