@@ -1,11 +1,12 @@
 .abt {
-    padding-top: 103px;
-    padding-bottom: 120px;
-    border-radius: 70px;
-    background-color: $hover-btn-color;
-    width: 1200px;
-    height: 675px;
-margin-left: 120px;
+    &__box-wrapper {
+        padding-top: 103px;
+        padding-bottom: 120px;
+        border-radius: 70px;
+        background-color: $hover-btn-color;
+        width: 1200px;
+        height: 675px;
+    }
 
     &__title {
         font-family: "DM Serif Display", serif;
@@ -21,8 +22,8 @@ margin-left: 120px;
 
     &__list {
         display: flex;
-justify-content: center;
-align-items: center;
+        justify-content: center;
+        align-items: center;
     }
 
 
