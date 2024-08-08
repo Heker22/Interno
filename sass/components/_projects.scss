@@ -37,7 +37,6 @@
         font-size: 24px;
         line-height: 156%;
         letter-spacing: 0.01em;
-        margin-bottom: 5px;
         font-family: "DM Serif Display", serif;
         color: $btn-color;
     }
@@ -47,8 +46,7 @@
         font-weight: 400;
         font-size: 22px;
         line-height: 150%;
-        letter-spacing: 0.01em;
-
+        letter-spacing: 0.01em
     }
 
 
@@ -59,8 +57,49 @@
     }
 
 
-    &__boxer {
+    &__box {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 60px;
 
     }
+
+    &__btn {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        border: 1px solid $hover-btn-color;
+        background-color: $hover-btn-color;
+        cursor: pointer;
+
+
+        &:hover,
+        &:focus {
+            fill: $hover-btn-color;
+            background-color: $background-color;
+            border: 1px solid $hover-color;
+
+        }
+    }
+
+
+    &__icon {
+        fill: $btn-color;
+        width: 26px;
+        margin-top: -42px;
+    }
+
+
+    &__btn:hover &__icon  {
+        fill: $hover-color;
+
+    }
+
+
+    &__ {}
+
+
+    &__ {}
 }
