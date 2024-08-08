@@ -372,6 +372,11 @@ body {
   line-height: 150%;
   letter-spacing: 0.01em;
 }
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .projects__boxer {
   display: flex;
 }/*# sourceMappingURL=main.css.map */

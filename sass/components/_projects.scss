@@ -52,11 +52,15 @@
     }
 
 
-    &__boxer {
+    &__list {
         display: flex;
-        
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
 
-    &__ {}
+    &__boxer {
+        display: flex;
+
+    }
 }
