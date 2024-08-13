@@ -1,0 +1,91 @@
+.join {
+
+
+    &__box {
+        padding: 100px 0 95px 0;
+        border-radius: 70px;
+        background-color: $btn-color;
+    }
+
+
+    &__title {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 150%;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 9px;
+        font-family: "DM Serif Display", serif;
+        color: $background-color;
+    }
+
+
+    &__text {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        margin-bottom: 31px;
+        color: $background-color;
+    }
+
+
+    &__btn {
+        box-shadow: 1px 0 18px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 18px;
+        border: 1px solid $hover-color;
+        background-color: $hover-color;
+        text-align: center;
+        padding: 22px 16px 22px 24px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: $background-color;
+        
+
+        &:hover,
+        &:focus {
+            border: 1px solid $hover-color;
+            background-color: $background-color; 
+            color: $hover-color;
+        }
+    }
+
+
+    &__icon {
+        width: 35px;
+        height: 35px;
+        fill: $btn-color;
+    }
+
+
+    &__wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &__ {}
+
+
+    &__ {}
+
+
+    &__ {}
+
+
+    &__ {}
+
+
+    &__ {}
+
+
+    &__ {}
+
+
+
+
+
+
+}

@@ -527,4 +527,126 @@ body {
 }
 .blog__btn:hover .blog__icon {
   fill: #CDA274;
+}
+
+.join__box {
+  padding: 100px 0 95px 0;
+  border-radius: 70px;
+  background-color: #292F36;
+}
+.join__title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 9px;
+  font-family: "DM Serif Display", serif;
+  color: #fff;
+}
+.join__text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 31px;
+  color: #fff;
+}
+.join__btn {
+  box-shadow: 1px 0 18px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  border: 1px solid #CDA274;
+  background-color: #CDA274;
+  text-align: center;
+  padding: 22px 16px 22px 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #fff;
+}
+.join__btn:hover, .join__btn:focus {
+  border: 1px solid #CDA274;
+  background-color: #fff;
+  color: #CDA274;
+}
+.join__icon {
+  width: 35px;
+  height: 35px;
+  fill: #292F36;
+}
+.join__wrap {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  padding-top: 114px;
+  padding-bottom: 36px;
+}
+.footer__list-icon {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+.footer__list-icon-svg {
+  width: 30px;
+  height: 30px;
+  fill: #292F36;
+}
+.footer__list-icon-svg:hover, .footer__list-icon-svg:focus {
+  fill: #CDA274;
+}
+.footer__text {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 110px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid #4D5053;
+}
+.footer__subtitle {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  font-family: "DM Serif Display", serif;
+  color: #292F36;
+  margin-bottom: 21px;
+}
+.footer__item-div {
+  color: #292F36;
+  margin-bottom: 30px;
+}
+.footer__link-div {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+.footer__link-div:hover, .footer__link-div:focus {
+  color: #CDA274;
+}
+.footer__wrapper-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.footer__wrapper-word {
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #CDA274;
 }/*# sourceMappingURL=main.css.map */
